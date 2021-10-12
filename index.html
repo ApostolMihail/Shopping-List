@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="body">
+
+        <div class="container">
+            <div class="head-of-container">
+                <h1>SHOPPING LIST</h1>
+            </div>
+
+            <div class="input-of-container">
+                <span>
+                    <input type="text" id='item'>
+                    <button id='add-item' >Add item</button>
+                </span>
+            </div>
+
+            <div class="buttons-sort">
+                    <button id='sort-asc'>Sort asc</button>
+                    <button id='sort-desc'>Sort desc</button>
+            </div>
+
+            <div id="hidden">
+                <ul id="item-list"><h3>Item description</h3>
+                    
+                </ul>
+
+                <ul id="buttonList" class="action"><h3>Action</h3></ul>
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
